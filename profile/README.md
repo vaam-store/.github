@@ -1,51 +1,57 @@
-# vaam.store
+# vaam-store Organization
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  <!-- Add your license file -->
 [![GitHub Issues](https://img.shields.io/github/issues/vaam-store/.github)](https://github.com/vaam-store/.github/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/pulls/vaam-store/.github)](https://github.com/vaam-store/.github/pulls)
 
 ## Overview
 
-Welcome to the `vaam.store` organization/repository! This space is dedicated to the development, testing, and experimentation related to building the vaam store application.  We're exploring different technologies, architectures, and approaches to create a robust, scalable, and user-friendly e-commerce platform.
+Welcome to the `vaam-store` GitHub organization's `.github` repository!  This repository serves as a central hub for configuration, documentation, and tooling that affects all repositories within the `vaam-store` organization.  It's *not* the code for the vaam store itself, but rather supports its development and deployment.  It's the foundation for building a robust and scalable e-commerce platform.
 
 This repository primarily contains:
 
-*   **Experiments:**  Proof-of-concept implementations, prototypes, and explorations of different features and technologies.
-*   **Tests:** Unit tests, integration tests, and end-to-end tests to ensure the quality and reliability of the vaam store.
-*   **Supporting Code:**  Utility scripts, configuration files, and other resources used in the development process.
-*   **Documentation:**  Notes, design documents, and guides related to the vaam store architecture and development process.
+*   **Organizational Configuration:** Settings and configurations that apply across all `vaam-store` repositories (e.g., issue templates, pull request templates, codeowners).
+*   **Reusable Workflows:** GitHub Actions workflows that can be used in other repositories for CI/CD, testing, and deployment.
+*   **Documentation:** Information about our development processes, standards, and infrastructure.
+*   **Scripts & Tools:** Utility scripts and tools that are used to automate tasks related to the vaam store project.
+*   **Kubernetes Manifests (Example):** Example or base Kubernetes manifests for local development/staging environments (not production).
 
-**Please note:** This repository is actively under development and is primarily for internal experimentation and testing purposes.  While we welcome contributions, understand that code here may be subject to frequent changes and may not be production-ready.
+**Important Note:** This repository focuses on *infrastructure* and *organization-level configuration*. The actual application code for vaam store lives in separate repositories.
 
 ## Goals
 
-Our primary goals for the vaam store are:
+Our primary goals for the `vaam-store` organization (and reflected in this repository's contents) are:
 
-*   **[Goal 1]:** (e.g., Build a scalable microservices architecture)
-*   **[Goal 2]:** (e.g., Implement a user-friendly and responsive front-end)
-*   **[Goal 3]:** (e.g., Ensure secure and reliable payment processing)
-*   **[Goal 4]:** (e.g., Optimize for performance and SEO)
-*   **[Goal 5]:** (e.g., Provide a seamless customer experience across all devices)
+*   **Standardize Development Practices:**  Ensure consistent development practices across all vaam store repositories.
+*   **Automate CI/CD:** Streamline the CI/CD process for faster and more reliable deployments.
+*   **Improve Code Quality:** Enforce code quality standards and best practices.
+*   **Simplify Infrastructure Management:**  Make it easier to manage the infrastructure for the vaam store.
+*   **Foster Collaboration:**  Create a collaborative environment where developers can easily share code and knowledge.
 
-## Technologies We're Exploring
+## Technologies & Infrastructure
 
-We're currently experimenting with the following technologies (this list is not exhaustive and is subject to change):
+The vaam store is built using the following core technologies:
 
-*   **[Backend]:** [e.g., Node.js with Express, Python with Django/Flask, Go]
-*   **[Frontend]:** [e.g., React, Vue.js, Angular]
-*   **[Database]:** [e.g., PostgreSQL, MongoDB, MySQL]
-*   **[Cloud Platform]:** [e.g., AWS, Google Cloud, Azure]
-*   **[Testing Frameworks]:** [e.g., Jest, Mocha, Cypress, Selenium]
-*   **[Other Tools]:** [e.g., Docker, Kubernetes, CI/CD pipelines]
+*   **Backend:** Rust (with frameworks like Actix or Rocket)
+*   **Databases:** PostgreSQL, Redis
+*   **Frontend:** React (with Vite and/or Next.js)
+*   **DevOps:** Kubernetes (for development and staging; production details may vary), GitHub Actions for CI/CD
+*   **Other Tools:** Docker, Terraform (potentially for infrastructure provisioning)
 
-## Getting Started (If Applicable)
+This repository uses technologies like:
 
-If you're interested in running any of the experiments or tests locally:
+*   **YAML:** For configuration files (e.g., GitHub Actions workflows, Kubernetes manifests).
+*   **Shell Scripting:** For utility scripts and automation tasks.
+*   **Markdown:** For documentation.
 
-1.  **Clone the repository:** `git clone git@github.com:vaam-store/vaam-store.git` (Replace with the actual SSH/HTTPS URL).
-2.  **Install dependencies:**  (Provide specific instructions, e.g., `npm install` or `pip install -r requirements.txt`)
-3.  **Configure environment variables:** (Explain which environment variables are needed and how to set them).
-4.  **Run tests:** (e.g., `npm test` or `pytest`)
-5.  **Run experiments:** (Provide example or entry points to run experiments, if available)
+## Getting Started
 
-**Example Structure (adjust to your repository structure):**
+To use the resources in this repository:
+
+1.  **Clone the repository:** `git clone git@github.com:vaam-store/.github.git`
+2.  **Explore the contents:**  Familiarize yourself with the different directories and files.
+3.  **Use the workflows:**  Copy and adapt the GitHub Actions workflows to your own repositories.
+4.  **Refer to the documentation:**  Read the documentation to learn about our development processes and standards.
+5.  **Adapt Kubernetes manifests:** Use/adapt the manifest files for local development.  *These are examples and likely need modification to fit your specific setup.*
+
+**Example Structure:**
