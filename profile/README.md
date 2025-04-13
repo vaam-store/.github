@@ -32,9 +32,8 @@ Stay tuned for opportunities to contribute! In the meantime, you can:
 
 ## Contact
 
-*   **Email:** [Your Contact Email Address](mailto:selastlambou@gmail.com)
-*   **Website:** [Your Website URL](https://vaam.store)
-*   **Social Media:** [Links to your social media profiles (Twitter, LinkedIn, etc.)]
+*   **Email:** [ME.com 🤣](mailto:selastlambou@gmail.com)
+*   **Website:** [VAAM](https://vaam.store)
 
 ---
 
