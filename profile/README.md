@@ -1,8 +1,8 @@
 # vaam.store
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub Issues](https://img.shields.io/github/issues/vaam-store/vaam-store)](https://github.com/vaam-store/vaam-store/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/pulls/vaam-store/vaam-store)](https://github.com/vaam-store/vaam-store/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/vaam-store/.github)](https://github.com/vaam-store/.github/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/pulls/vaam-store/.github)](https://github.com/vaam-store/.github/pulls)
 
 ## Overview
 
